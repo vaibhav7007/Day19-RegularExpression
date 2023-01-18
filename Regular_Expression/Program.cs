@@ -7,7 +7,7 @@ namespace RegularExpression
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the regular expression");
-            //UC3 Checking pincode with alphabet at end
+            //UC4 Checking pincode having a space inside in it
             PinCode.check_Six_Digit_Pin_Code();
             Console.ReadLine();
         }
