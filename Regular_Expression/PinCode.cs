@@ -14,8 +14,7 @@ namespace RegularExpression
         {
             //UC1 Checking the PIN Code is a 6 digit code 
             string pattern = "^[0-9]{6}$";
-            string[] pincode = { "400088", "431717", "400085", "400A3b", "A41100" }; //UC2 A41100 invalid case
-
+            string[] pincode = { "400088", "431717", "400085", "40013b", "A41100" }; //UC3 40013b invalid case
             foreach (string input in pincode)
             {
                 if (Regex.IsMatch(input, pattern))
